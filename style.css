@@ -1,0 +1,208 @@
+body{
+
+    background: rgb(35, 34, 105);
+    margin: 0;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+}
+
+.cuadro{
+
+    width: 90%;
+    max-width: 800px;
+
+    height: 550px;
+
+    background-color: rgb(194, 194, 194);
+
+    position: relative;
+    left:300px ;
+    top:-10px ;
+    
+
+
+}
+
+/* TEXTO */
+.parrafo{
+
+    color: rgb(255, 255, 255);
+
+    position: absolute;
+
+    left: 20px;
+    top: -10px;
+
+    z-index: 20;
+
+    font-family: Consolas, monospace;
+}
+
+/* INPUT */
+.escribir{
+
+    position: absolute;
+
+    left: 20px;
+    top: 120px;
+
+    z-index: 10;
+
+    background-color: rgb(173, 173, 173);
+
+    color: rgb(0, 0, 0);
+
+    border-radius: 10px;
+
+    border: 1px solid rgb(0, 0, 0);
+
+    width: 55%;
+
+    padding: 10px;
+
+    outline: none;
+}
+
+/* BOTON */
+.boton {
+
+    position: absolute;
+
+    left: 63%;
+    top: 120px;
+
+    z-index: 10;
+
+    background-color: rgb(141, 141, 141);
+
+    border-radius: 10px;
+
+    color: black;
+
+    border: none;
+
+    padding: 10px 15px;
+
+    cursor: pointer;
+}
+
+/* LOGO */
+.logo{
+
+    z-index: 10;
+
+    position: absolute;
+
+    right: 20px;
+    bottom: 20px;
+}
+
+.logo img{
+    width: 180px;
+}
+
+/* LOGO ABAJO */
+.cafa {
+
+    z-index: 10;
+
+    position: absolute;
+
+    left: 700px;
+    top: 354px;
+    bottom: 15px;
+
+    transform: translateX(-50%);
+}
+
+/* RESPONSIVE */
+@media (max-width: 600px){
+
+    .cuadro{
+
+        width: 95%;
+        height: 90vh;
+    }
+
+    .parrafo{
+
+        font-size: 12px;
+    }
+
+    .escribir{
+
+        width: 50%;
+
+        top: 150px;
+    }
+
+    .boton{
+
+        left: 60%;
+        top: 150px;
+
+        padding: 10px;
+    }
+
+    .logo{
+
+        right: 10px;
+        bottom: 20px;
+    }
+
+    .logo img{
+
+        width: 110px;
+    }
+
+    .cafa img{
+
+        width: 140px;
+    }
+}
+
+
+
+
+
+.cua{
+    width: 1225px;
+    height: 40px;
+
+    background-color: rgb(4, 0, 255);
+
+    position: relative;
+    left:-428px;
+    top: -270px;
+
+    z-index: 10;
+
+    margin: 10px;
+
+}
+
+.pestaña{
+
+
+   position: relative;
+
+    left: 180px;
+    top: -270px;
+
+    z-index: 20;
+
+    display: flex;
+    gap: 30px;
+
+    font-size: 16px;
+    color: black;
+
+
+
+}
+
